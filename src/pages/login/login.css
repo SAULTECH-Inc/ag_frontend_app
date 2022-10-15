@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.loginWrapper {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
+
+.loginImg {
+    width: 50%;
+}
+
+.loginBox {
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+ .loginText {
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 6px;
+    background: none;
+ }
+
+ .border_bottom {
+    height: 5px;
+    width: 40px;
+    background: #601C25;
+    margin-bottom: 30px;
+ }
+
+.loginInput {
+    border: none;
+    background: none;
+    width: 17rem;
+    height: 40px;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {
+    width: 12rem;
+    height: 40px;
+    border-radius: 70px;
+    border: none;
+    background-color: #601C25;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.loginForgotPassword {
+    margin-right: 9rem;
+    background: none;
+    color: #601C25;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .loginImg {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .loginImg {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .loginImg {
+        display:none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .loginImg {
+        display: flex;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .loginImg {
+        display: flex;
+    }
+}
